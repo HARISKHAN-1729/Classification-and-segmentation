@@ -26,7 +26,38 @@ The semantic segmentation notebook (semanticsegmentation_report and code.ipynb) 
 
 **Installation**
 
-To run these notebooks, you need to install the required Python libraries. Clone this repository and install the dependencies as follows:
+1. Clone the Repository: Start by cloning the repository to your local machine. Use the following command in your terminal:
 
 ```bash
 
+git clone https://github.com/HARISKHAN-1729/Classification-and-segmentation.git
+```
+
+2.  Navigate to the Repository Directory: Change your directory to the cloned repository:
+
+```bash
+cd Classification-and-segmentation
+```
+
+3. Install Dependencies: Install all the required Python libraries listed in requirements.txt. It's recommended to use a virtual environment to avoid conflicts with other packages:
+
+```bash
+
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install -r requirements.txt
+
+```
+
+Launch Jupyter Notebook or Jupyter Lab: Start Jupyter Lab or Notebook to access the notebooks:
+
+```bash
+
+jupyter lab
+# Or for Jupyter Notebook:
+# jupyter notebook
+
+```
+This will open the Jupyter interface in your default web browser, where you can navigate to and open the project notebooks.
+
+With these steps, you'll be prepared to explore and run the machine learning models provided in the notebooks.
